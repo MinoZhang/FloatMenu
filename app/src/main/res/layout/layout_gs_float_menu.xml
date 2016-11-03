@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/gsMenu"
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/gsMenuLine"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/gs_menu_bg"
+        android:orientation="horizontal"
+        android:visibility="gone">
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/gsGameFra"
+        android:layout_width="50dp"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/gsGameLogo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/gs_image_float_logo"/>
+
+        <ImageView
+            android:id="@+id/gsGameLoader"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/gs_anim_background"/>
+    </FrameLayout>
+</FrameLayout>
