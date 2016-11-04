@@ -26,7 +26,6 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:24.2.1'
     testCompile 'junit:junit:4.12'
-    compile 'com.jakewharton:butterknife:8.4.0'
     compile 'com.yw.game.floatmenu:FloatMenu:1.1.1'
     compile 'com.yw.game.sclib:shortCutLib:0.0.3'
 }
